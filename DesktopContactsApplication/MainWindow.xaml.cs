@@ -45,7 +45,7 @@ namespace DesktopContactsApplication
             using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
             {
                 connection.CreateTable<Contact>();
-                contacts = connection.Table<Contact>().OrderBy(c => c.Name).ToList();
+                contacts = connection.Table<Contact>().ToList().OrderBy(c => c.Name).ToList();
             }
 
             if (contacts != null)
@@ -68,6 +68,20 @@ namespace DesktopContactsApplication
             TextBox searchTextBox = sender as TextBox;
             List<Contact> filteredList = contacts.Where(c => c.Name.ToLower().Contains(searchTextBox.Text.ToLower())).ToList();
             contactsListView.ItemsSource = filteredList;
+        }
+
+        private void contactsListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Contact selectedContact = contactsListView.SelectedItem as Contact;
+
+            if(selectedContact != null)
+            {
+                ContactDetailsWindow contactDetailsWindow = new ContactDetailsWindow(selectedContact);
+                contactDetailsWindow.ShowDialog();
+                ReadDatabase();
+            }
+            
+
         }
     }
 }

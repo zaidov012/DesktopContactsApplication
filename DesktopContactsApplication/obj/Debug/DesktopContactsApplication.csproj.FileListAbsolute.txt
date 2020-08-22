@@ -34,3 +34,5 @@ C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplicati
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\DesktopContactsApplication_Content.g.cs
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\DesktopContactsApplication.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\ContactDetailsWindow.g.cs
+C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\ContactDetailsWindow.baml

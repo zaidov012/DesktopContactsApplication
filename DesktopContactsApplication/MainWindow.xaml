@@ -31,6 +31,7 @@
 
         <ListView x:Name="contactsListView"
                   Height="300"
+                  SelectionChanged="contactsListView_SelectionChanged"
                   Margin="5 15">
             <ListView.ItemTemplate>
                 <DataTemplate>
