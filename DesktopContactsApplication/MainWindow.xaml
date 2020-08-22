@@ -3,9 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:DesktopContactsApplication.Controls"
         xmlns:local="clr-namespace:DesktopContactsApplication"
         mc:Ignorable="d"
-        Title="Contacts" Height="450" Width="800"
+        Title="Contacts" Height="450" Width="400"
         Background="Beige">
     <StackPanel Margin="10"
                 Background="Aquamarine">
@@ -13,42 +14,30 @@
                 FontFamily="Comic Sans MS"
                 FontSize="15"
                 Click="NewContactButton_Click"
-                Width="500"
+                Width="350"
                 Margin="5"
                 Background="#00BBCC"
                 />
-        <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="center">
+        <StackPanel Orientation="Horizontal" Margin="59,0,58,0">
 
             <Label Content="Search"
                HorizontalAlignment="Center"/>
             <TextBox 
-                Width="400"
+                Width="200"
             Margin="5 0"
             TextChanged="TextBox_TextChanged"/>
 
         </StackPanel>
 
         <ListView x:Name="contactsListView"
+                  Background="#AAE5E5E5"
                   Height="300"
                   SelectionChanged="contactsListView_SelectionChanged"
                   Margin="5 15">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
-                        <TextBlock
-                            FontSize="20"
-                            FontWeight="Bold"
-                            Text="{Binding Name}"/>
-                        <TextBlock 
-                            FontSize="15"
-                            Foreground="DodgerBlue"
-                            Text="{Binding Email}"/>
-                        <TextBlock 
-                            FontSize="15"
-                            FontStyle="Italic"
-                            Text="{Binding Phone}"/>
-                    </StackPanel>
+                    <uc:ContactControl
+                        Contact="{Binding}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

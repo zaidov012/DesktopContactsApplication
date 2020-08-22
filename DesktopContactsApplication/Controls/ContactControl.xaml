@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="DesktopContactsApplication.Controls.ContactControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DesktopContactsApplication.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="90" d:DesignWidth="300">
+    <Grid>
+        <StackPanel Margin="5"
+                    Background="#AAE5E5E5">
+            <TextBlock
+                x:Name="nameTextBlock"
+                            FontSize="20"
+                            FontWeight="Bold"
+                            Text="Name Lastname"/>
+            <TextBlock 
+                x:Name="emailTextBlock"
+                            FontSize="15"
+                            Foreground="DodgerBlue"
+                            Text="Email"/>
+            <TextBlock 
+                x:Name="phoneTextBlock"
+                            FontSize="15"
+                            FontStyle="Italic"
+                            Text="Phone number"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

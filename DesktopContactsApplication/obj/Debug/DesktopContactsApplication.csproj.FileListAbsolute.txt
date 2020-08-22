@@ -1,7 +1,6 @@
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\bin\Debug\DesktopContactsApplication.exe.config
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\bin\Debug\DesktopContactsApplication.exe
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\bin\Debug\DesktopContactsApplication.pdb
-C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\DesktopContactsApplication.csprojAssemblyReference.cache
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\MainWindow.g.cs
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\NewContactWindow.g.cs
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\App.g.cs
@@ -36,3 +35,6 @@ C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplicati
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\DesktopContactsApplication.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\ContactDetailsWindow.g.cs
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\ContactDetailsWindow.baml
+C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\Controls\ContactControl.g.cs
+C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\obj\Debug\Controls\ContactControl.baml

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ContactDetailsWindow" Height="300" Width="300">
     <Grid>
-        <StackPanel Background="Gray" Margin="10">
+        <StackPanel Background="Aqua" Margin="10">
             <Label Content="Name"
                    HorizontalAlignment="Center"/>
             <TextBox x:Name="nameTextBox"/>

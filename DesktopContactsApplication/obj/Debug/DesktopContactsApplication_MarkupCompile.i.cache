@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Lenovo\source\repos\DesktopContactsApplication\DesktopContactsApplication\App.xaml
-3-1239158615
+41715188866
 3-1433580239
-91063393799
+101453430371
 127-1212952049
-ContactDetailsWindow.xaml;MainWindow.xaml;NewContactWindow.xaml;
+ContactDetailsWindow.xaml;Controls\ContactControl.xaml;MainWindow.xaml;NewContactWindow.xaml;
 
 True
 
